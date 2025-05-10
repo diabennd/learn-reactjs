@@ -2,12 +2,12 @@ import React from 'react'
 
 
 //component adalah sekumpulan element yang dapat dirender ke halaman html secara dinamis
-const Components = () => {
+const FunctionComponent = (props) => {
   return (
     <div>
-        This is a <b>component</b>
+        <p>Hello {props.name} this is a <b>Function Component</b></p>
     </div>
   )
 }
 
-export default Components
+export default FunctionComponent;

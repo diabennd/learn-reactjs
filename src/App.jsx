@@ -1,13 +1,15 @@
 import "./App.css";
-import Fetching from "./Fetching-data/Fetching";
-import Components from "./main-concepts/Components";
-import UseEffect from "./main-concepts/Hooks/UseEffect";
+import FunctionComponent from "./MainConcepts/Components/FunctionComponent";
+import Fetching from "./FetchingData/Fetching";
+import UseEffectHook from "./MainConcepts/Hooks/UseEffectHook"
+import ClassComponent from "./MainConcepts/Components/ClassComponent";
 
 function App() {
   return (
     <>
-      <Components />
-      <UseEffect />
+      <FunctionComponent name="John Doe"/> {/* functional component */}
+      <ClassComponent name="John Doe"/>
+      <UseEffectHook />
       <Fetching />
     </>
   );

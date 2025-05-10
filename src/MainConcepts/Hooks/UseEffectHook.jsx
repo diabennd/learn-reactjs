@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-function UseEffect() {
+function UseEffectHook() {
   const [number, setNumber] = useState(0);
 
   //useEffect adalah efek samping ketika kita melakukan rerender, dalam hal ini adalah mengganti nilai state karena setiap nilai state berubah akan terjadi rerender
@@ -28,4 +28,4 @@ function UseEffect() {
   );
 }
 
-export default UseEffect;
+export default UseEffectHook;
