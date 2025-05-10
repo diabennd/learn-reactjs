@@ -11,7 +11,7 @@ const Fetching = () => {
       setIsLoading(true);
 
       try {
-        const data = await fetch(`${BASE_URL}/todos`);
+        const data = await fetch(`${BASE_URL}/todos?delay=2000`);
         const getTodos = await data.json();
         
         setTodos(getTodos.todos);

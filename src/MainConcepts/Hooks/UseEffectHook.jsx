@@ -14,7 +14,7 @@ function UseEffectHook() {
   return (
     <>
       <div>
-        <p className="text-4xl font-bold">{number}</p>
+        <p className="text-4xl font-bold ">{number}</p>
         <button
         className="my-10"
           onClick={() => {

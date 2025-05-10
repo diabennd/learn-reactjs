@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import "Tailwindcss";
 
 
 a {
@@ -11,6 +11,7 @@ a:hover {
 }
 
 body {
+  margin: 12px;
   display: flex;
   place-items: center;
   min-width: 320px;
