@@ -6,6 +6,7 @@ import ClassComponent from "./MainConcepts/Components/ClassComponent";
 import Props from "./MainConcepts/Props";
 import EventHandling from "./MainConcepts/EventHandling";
 import UseStateHook from "./MainConcepts/Hooks/UseStateHook";
+import RouterApp from "./ReactRouter/react-router-dom/RouterApp";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <UseStateHook />
       <UseEffectHook />
       <EventHandling />
+      <RouterApp />
       <Fetching />
     </>
   );
